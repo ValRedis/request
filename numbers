@@ -2,3 +2,7 @@ var_1 = 11
 print(var_1 in [5, 6, 40, 126, 156, 285, 376])
 # Вывод:
 False
+
+from pathlib import Path
+
+print(Path('/root/file.ext').stem)
